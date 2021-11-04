@@ -1,6 +1,5 @@
 dependencies:
 - python
   - pip
-  - pip:
-    - dedupe
-    - Unidecode
+  - dedupe
+  - Unidecode
