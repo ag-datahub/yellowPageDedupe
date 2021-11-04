@@ -1,5 +1,10 @@
+name: example-environment
+channels:
+  - conda-forge
 dependencies:
-- python
+  - python
+  - numpy
   - pip
-  - dedupe
-  - Unidecode
+  - pip:
+    - dedupe
+    - Unidecode
